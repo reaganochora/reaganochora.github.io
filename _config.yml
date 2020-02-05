@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Reagan Ochora"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Teacher.Developer.Entrepreneur"# site tagline that appears below site title in masthead
 name                     : "Reagan Ochora"
-description              : "Teacher.Developer.Entrepreneur."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Courses and Blog from Reagan"
+url                      : "https://reaganochora.github.io" # e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Reagan Ochora"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Amateur to Pro."
+  bio              : "Wanna be a pro"
   location         : "Shenyang, China"
   email            :
   links:
@@ -283,8 +283,7 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  - 
-  scope:
+  - scope:
       path: ""
       type: posts
     values:
